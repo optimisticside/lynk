@@ -1,0 +1,59 @@
+{
+  "name": "Lynk",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Lynk": {
+        "$path": "src/lynk"
+      },
+      
+      "Shared": {
+        "$path": "src/shared/modules"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "Core": {
+        "$path": "src/server/core"
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      
+      "Modules": {
+        "$path": "src/server/modules"
+      },
+
+      "Services": {
+        "$path": "src/server/services"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/client/core"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        
+        "Modules": {
+          "$path": "src/client/modules"
+        },
+
+        "Controllers": {
+          "$path": "src/client/controllers"
+        }
+      }
+    }
+  }
+}
