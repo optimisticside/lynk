@@ -7,6 +7,7 @@ Lynk is a minimal framework that works just like AGF. Each script is injected wi
 
 ## Example
 Here's an example of a system I made to test the network. It's comprised of a service in the server and a controller in the client. The server will occationally ping all clients to check their connections. Note that this will require two remote events inside a `Remotes` folder inside of `ReplicatedStorage` called `Ping` and `PingReturn`.
+
 ```lua
 -- PingService
 -- OptimisticSide
