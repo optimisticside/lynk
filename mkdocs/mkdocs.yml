@@ -2,6 +2,9 @@ site_name: Lynk
 site_description: Homepage of the Lynk framework
 site_author: OptimisticSide
 site_url: https://optimisticside.github.io/lynk
+repo_author: https://github.com/optimisticside/lynk
+repo_name: Lynk
+edit_uri: edit/master/mkdocs/docs
 
 nav:
   - Home: index.md
