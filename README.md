@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/optimisticside/lynk/master/assets/logo.png" width="40%" height="40%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/optimisticside/lynk/docs/img/logo.png" width="40%" height="40%"></p>
 
 Lynk is an adaptable framework for development on the Roblox platform, and is heavily inspired by Sleitnick's [AeroGameFramework](https://github.com/Sleitnick/AeroGameFramework/tree/master/src). Lynk provides only the bare-bones of a framework, and does not include any network handling like AGF. Although, an additional `Network` is provided by default (but is not required).
 
