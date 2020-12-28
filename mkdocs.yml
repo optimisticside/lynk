@@ -1,0 +1,27 @@
+site_name: Lynk
+site_description: Homepage of the Lynk framework
+site_author: OptimisticSide
+site_url: https://optimisticside.github.io/lynk
+
+nav:
+  - Home: index.md
+  - Why Lynk: why.md
+  - Services: services.md
+  - Controllers: contrllers.md
+  - Modules: modules.md
+  - Configuration: config.md
+  - Server: server.md
+  - Client: client.md
+  - Examples:
+      - Ping: examples/ping.md
+
+theme:
+  name: material
+  favicon: "assets/icon.png"
+  logo: "assets/logo_white.png"
+  palette:
+    primary: black
+    accent: grey
+  highlightjs: true
+  hljs_languages:
+    - lua
